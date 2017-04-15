@@ -6,7 +6,7 @@ This is a simple Youtube Scraping script in Python that stores default data of a
 Clone the project (or download it) and install the dependencies from the *requirements.txt* file.
 
 ```sh
-$ https://github.com/robertsan96/ytpy.git
+$ git clone https://github.com/robertsan96/ytpy.git
 $ cd ytpy
 $ pip install -r requirements.txt
 ```
