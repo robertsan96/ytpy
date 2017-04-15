@@ -1,6 +1,7 @@
 from core.types.Type import Type
 
-class QuickType(Type):
+class QuickType(object, Type):
 
     def __init__(self, url):
-        pass
+        super(QuickType, self).getSource(url)
+        super(QuickType, self).buildModel()
