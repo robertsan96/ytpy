@@ -1,8 +1,6 @@
-from core.AppConfig import AppConfig
+from core.types.Type import Type
 
-class QuickType:
-
-    appConfig = AppConfig()
+class QuickType(Type):
 
     def __init__(self, url):
-        print "getting data from " + url + "and writing to " + self.appConfig.writePath
+        pass
