@@ -40,3 +40,4 @@ class Type:
         newFile = open(path, "w")
         newFile.write(self.video.toJSON())
         newFile.close()
+        print "Stored. [" + newFile.name + "]"

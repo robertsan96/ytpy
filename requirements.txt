@@ -1,7 +1,11 @@
 appdirs==1.4.3
 beautifulsoup4==4.5.3
+decorator==4.0.11
+docstring==0.1.2.4
 enum34==1.1.6
+lxml==3.7.3
 packaging==16.8
 pyparsing==2.2.0
 requests==2.13.0
 six==1.10.0
+validators==0.11.3

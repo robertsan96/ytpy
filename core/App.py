@@ -2,6 +2,7 @@ import sys
 
 from core.RunType import *
 from core.types.QuickType import QuickType
+from core.types.ManualType import ManualType
 
 class App:
 
@@ -13,6 +14,6 @@ class App:
 
     def runApp(self, runType):
         if runType == RunType.MANUAL:
-            print "MANUAL"
+            runApp = ManualType()
         else:
             runApp = QuickType(sys.argv[1])
